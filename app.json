@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "رفيقي في المدرسة",
+    "slug": "school-help-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F5F1FF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ghaidaabadreg.schoolhelpapp",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": ""
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F5F1FF"
+      },
+      "package": "com.ghaidaabadreg.schoolhelpapp"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
